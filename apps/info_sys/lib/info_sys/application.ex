@@ -11,7 +11,7 @@ defmodule InfoSys.Application do
       # Starts a worker by calling: InfoSys.Worker.start_link(arg)
       # {InfoSys.Worker, arg}
       InfoSys.Cache,
-      {Task.Supervisor, name: InfoSys.Supervisor}
+      {Task.Supervisor, name: InfoSys.TaskSupervisor},
     ]
 
     # See https://hexdocs.pm/elixir/Supervisor.html
