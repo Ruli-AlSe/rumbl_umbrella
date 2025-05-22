@@ -71,3 +71,12 @@
 - Utilizar el Observer para comprender la importancia de las aplicaciones.
 - Extraer rumbl y rumbl_web en su propio proyecto secundario.
 - Identificar cambios de configuración, incluyendo dependencias, árboles de supervisión y configuración de la aplicación.
+
+### Capitulo 12: OTP
+- Crear nueva aplicación secundaria en el proyecto umbrella.
+- Crear un contador que demuestra cómo funcionan algunos comportamientos de OTP.
+- Analizar varias estrategias de supervisión y reinicio de OTP.
+- Aprender cómo las tareas encapsulan el comportamiento y los agentes encapsulan el estado.
+- Implementar una caché respaldada por ETS, con caché impulsada por GenServer.
+- Implementar un frontend abstracto del sistema de información con backends concretos.
+- Aprender a obtener resultados de WolframAlpha de un servicio HTTP y a compartirlos en los canales.
