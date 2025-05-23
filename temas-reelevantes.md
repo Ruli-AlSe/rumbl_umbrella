@@ -80,3 +80,10 @@
 - Implementar una caché respaldada por ETS, con caché impulsada por GenServer.
 - Implementar un frontend abstracto del sistema de información con backends concretos.
 - Aprender a obtener resultados de WolframAlpha de un servicio HTTP y a compartirlos en los canales.
+
+### Capitulo 13: Testing de Channels y OTP
+- Probar la capa OTP para la aplicación OTP de InfoSys.
+- Separar la capa de caché independiente para mejorar el rendimiento.
+- Crear un backend específico en lugar de un stub dinámico o un mock para mantener las pruebas aisladas, como deberían ser nuestras pruebas unitarias y de integración.
+- Probar el código de autenticación de sockets.
+- Utilizar el soporte de pruebas de Phoenix para probar los canales.
